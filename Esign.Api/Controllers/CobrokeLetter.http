@@ -1,0 +1,11 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+@CobrokeLetter_HostAddress = http://localhost:5089
+
+POST {{CobrokeLetter_HostAddress}}/api/esign/cobroke-Letters
+Content-Type: application/json
+
+{
+  "CreateUserId": "39513",
+}
+###
